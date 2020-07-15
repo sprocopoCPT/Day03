@@ -1,11 +1,13 @@
 
 
-void ft_swap(int a*, int *b)
+void ft_swap(int *a, int *b)
 {
-	int a;
-	int b;
-	a = *a;
-	b = *b;
-	a = *b;
-	b = *a;
+	int c;
+	int d;
+
+	c = *a;
+	d = *b;
+
+	*b = c;
+	*a = d;
 }
